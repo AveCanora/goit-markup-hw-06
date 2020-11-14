@@ -54,11 +54,19 @@
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
 
-                <p class="modal-font"> Закажите бесплатную консультацию! </p>
-                <p class="modal-font">
-                    Это совершенно бесплатно, и ни к чему Вас не обязывает. После отправки заявки мы свяжемся с Вами в
-                    течение дня.
-                </p>
+                <p class="modal-font"> Оставьте свои данные, мы вам перезвоним </p>
+                <label class="form-label" for="name">Имя</label>
+                <input class="form-input" type="text" name="name" id="name">
+                <br />
+                <label class="form-label" for="tel">Телефон</label>
+                <input class="form-input" type="tel" name="tel" id="tel">
+                <br />
+                <label class="form-label" for="mail">Почта</label>
+                <input class="form-input" type="email" name="mail" id="mail">
+                <br />
+                <label class="form-label" for="comment">Комментарий</label>
+                <input class="form-input" type="text" name="comment" id="comment">
+
                 <button class="btn-close" data-modal-close></button>
             </div>
 
@@ -428,6 +436,11 @@
                     </li>
                 </ul>
 
+            </div>
+            <div class="subscribe">
+                <b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
+                <button class="btn-subscribe">Подписаться</button>
+                <input class="in-subscribe" type="text" value="E-mail"></input>
             </div>
         </nav>
     </footer>
