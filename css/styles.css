@@ -1098,35 +1098,19 @@ line-height: 1.174;
 letter-spacing: 0.03em;
 color: var(--accent-cl);
 }
-.form-input:focus ~ .img-name {
+.form-input:focus ~ .img-name,
+.form-input:hover ~ .img-name{
     background-image: url(../img/modal-form/person-blue.svg);
+    /* fill: var(--cl-icon); */
   }
-.form-input:focus {
+
+
+.form-input:focus,
+.form-input:hover {
 outline: none;
 border-color: var(--accent-cl);
 }
 
-/* .form-input:focus + .form-label+.form-icon,
-.form-input:not(:placeholder-shown) + .form-label + .form-icon
-{
-    background-image: url(../img/modal-form/person-blue.svg);
-
-}    */
-
-
-
-
-/* .form-accept {
-    display: inline-block;
-    margin-top: 20px;
-    
-    
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-} */
 .img-name{
     background-image: url(../img/modal-form/person-black.svg); 
 } 
@@ -1136,57 +1120,3 @@ border-color: var(--accent-cl);
 .img-mail{
     background-image: url(../img/modal-form/email-black.svg); 
 }
-
-/* .form-label{
-    position: absolute;
-    top: 50%;
-    left: 83px;
-    transform: translateY(-50%);
-
-   
-} */
-
-
-
-/* 
-.img-name{
- 
-    display: inline-block;
-    background-image: url(../img/modal-form/person-black.svg); 
-    background-repeat: no-repeat;
-    background-position: left;
-    background-position-x: 12px;
-  
-    margin: 0;
-    
-} 
-.img-tel{
- 
-    display: inline-block;
-    background-image: url(../img/modal-form/phone-black.svg); 
-    background-repeat: no-repeat;
-    background-position: left;
-    background-position-x: 12px;
-  
-    margin: 0;
-    
-} 
-.img-mail{
-    display: inline-block;
-    background-image: url(../img/modal-form/email-black.svg); 
-    background-repeat: no-repeat;
-    background-position: left;
-    background-position-x: 12px;
-  
-    margin: 0; 
-} */
-
-
-/* .comment{
-    text-align: initial;
-    height: 120px;
-    align-items: flex-start;
-    padding-left: 16px;
-    padding-top: 12px;
-  
-} */
