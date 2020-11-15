@@ -886,7 +886,7 @@ img{
     background-repeat: no-repeat;
     background-position:right;
     background-color:var(--white);
-    background-image: url(../img/close.svg);
+    background-image: url(../img/modal-form/close.svg);
 } */
 .btn-close {
     display: inline-block;
@@ -897,13 +897,13 @@ img{
     width: 30px;
     height: 30px;
 
-    background-image: url(../img/close1.svg); 
+    background-image: url(../img/modal-form/close1.svg); 
     border: none;
     background-color: var(--white);
 }
 .btn-close:hover,
 .btn-close:focus{
-    background-image: url(../img/close2.svg); 
+    background-image: url(../img/modal-form/close2.svg); 
 }
 .modal-font{
     padding-top: 40px;
@@ -990,8 +990,15 @@ img{
 
 }
 .form-label{
-    /* display: block; */
-    margin-left: 41px;
+    position: absolute;
+    top: 50%;
+    left: 83px;
+    transform: translateY(-50%);
+
+    
+    margin: 0px;
+    padding: 0;
+    
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -1000,7 +1007,10 @@ img{
     color: var(--gray);
 }
 .form-input{
-    /* display: block; */
+    display: flex;
+    align-items: center;
+    /*margin: 0;
+    padding: 0; */
     margin-left: 41px;
     width: 448px;
     height: 40px;
@@ -1010,4 +1020,82 @@ img{
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    padding: 16 12 12;
+    color: rgba(117, 117, 117, 0.5);
+    padding-left: 42px ;
+    /* background-image: url(../img/modal-form/person-black.svg); 
+    background-repeat: no-repeat; */
+
+}
+.img-name{
+ 
+    display: inline-block;
+    background-image: url(../img/modal-form/person-black.svg); 
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 12px;
+  
+    margin: 0;
+    
+} 
+.img-tel{
+ 
+    display: inline-block;
+    background-image: url(../img/modal-form/phone-black.svg); 
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 12px;
+  
+    margin: 0;
+    
+} 
+.img-mail{
+    display: inline-block;
+    background-image: url(../img/modal-form/email-black.svg); 
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 12px;
+  
+    margin: 0; 
+}
+.comment{
+    text-align: initial;
+    height: 120px;
+    align-items: flex-start;
+    padding-left: 16px;
+    padding-top: 12px;
+  
+}
+.form-accept {
+    display: inline-block;
+    margin-top: 20px;
+    
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+}
+
+.form-icon{
+    position: absolute;
+    top: 50%;
+    left: 56px;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/modal-form/person-black.svg);
+
+}
+
+.form-style-input{
+    position: relative;
+
 }
