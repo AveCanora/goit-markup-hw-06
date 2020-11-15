@@ -59,22 +59,31 @@
 
                     <input class="form-input" type="text" name="name" id="name" />
                     <label class="form-label" for="name">Имя</label>
-                    <span class="form-icon"></span>
+                    <span class="form-icon img-name"></span>
 
                 </div>
 
-                <label class="form-label" for="tel">Телефон</label>
+                <div class="form-style-input">
+                    <input class="form-input" type="tel" name="tel" id="tel">
+                    <label class="form-label" for="tel">Телефон</label>
+                    <span class="form-icon img-tel"></span>
 
-                <input class="form-input img-tel" type="tel" name="tel" id="tel">
+                </div>
 
-                <label class="form-label" for="mail">Почта</label>
+                <div class="form-style-input">
+                    <input class="form-input" type="email" name="mail" id="mail">
+                    <label class="form-label" for="mail">Почта</label>
+                    <span class="form-icon img-mail"></span>
+                </div>
+                <div class="form-style-input">
+                    <textarea class="form-input" style="max-height:130px;" name="comment" id="comment" rows="10"
+                        placeholder="Введите текст">
+                    </textarea>
+                    <label class="form-label" style="top: 20px;" for="comment">Комментарий</label>
 
-                <input class="form-input img-mail" type="email" name="mail" id="mail">
+                </div>
 
-                <label class="form-label" for="comment">Комментарий</label>
 
-                <textarea class="form-input comment" name="comment" id="comment" rows="10">Введите текст
-                </textarea>
                 <input class="form-accept" type="checkbox" name="accept" value="accept" id="accent" wight="20px">
                 <label for="accept">Соглашаюсь с рассылкой и принимаю</label> <a class="form-link" href="">Условия
                     договора</a>
