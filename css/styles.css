@@ -1098,10 +1098,10 @@ line-height: 1.174;
 letter-spacing: 0.03em;
 color: var(--accent-cl);
 }
-.form-input:focus ~ .img-name,
-.form-input:hover ~ .img-name{
-    background-image: url(../img/modal-form/person-blue.svg);
-    /* fill: var(--cl-icon); */
+.form-input:focus ~ .form-icon,
+.form-input:hover ~ .form-icon{
+    /* background-image: url(../img/modal-form/person-blue.svg); */
+    fill: var(--accent-cl);
   }
 
 
