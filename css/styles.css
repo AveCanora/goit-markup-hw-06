@@ -933,7 +933,7 @@ img{
     transition:transform var(--time) var(--cubic)
 }
 
-.animation:hover .hover::before{
+.a-link:hover .hover::before{
     transform:translateY(0);  
 }
 
@@ -958,7 +958,7 @@ img{
     transform:translateY(100%);
     transition:transform var(--time) var(--cubic)
 }
-.hover:hover .animation-overlay{
+.a-link:hover .animation-overlay{
     transform:translateY(0);  
 }
 /* .img-overlay{
