@@ -768,7 +768,7 @@ img{
      
      width: 570px;
      height: 86px;
-  
+     text-transform: uppercase;
  
      font-family: Roboto;
      font-style: normal;
@@ -1062,7 +1062,6 @@ img{
 -webkid-appearance: none;
 -moz-appearance: none;
 appearance: none;
-padding-top: 20px;;
 position: absolute;
 
 top: 0;
@@ -1070,40 +1069,56 @@ top: 0;
 }
 .checkbox-label {
     position: relative;
+    display: inline-block;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    padding-left: 0px;
+    padding: 0;
     top: 20px;
+    text-align: center;
+    color: var(--gray);
 }
 .checkbox-icon{
 
-    display: inline-block;
+    display:inline-block;
+    vertical-align:middle;
+    
+    background-repeat: no-repeat;
     width: 16px;
     height: 15px;
+    padding: 0px;
+   
+
     background-image: url(../img/modal-form/check1.svg);
 }
 .checkbox:checked +.checkbox-icon{
     background-image: url(../img/modal-form/check2.svg);
 }
 .form-link{
-
+display: inline-block; padding: 0px; margin: 0px;
 margin-top:20px;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 1.174;
+line-height: 1.714;
 letter-spacing: 0.03em;
 color: var(--accent-cl);
+padding: 0px;
+margin: 0px;
 }
-.form-input:focus ~ .form-icon,
-.form-input:hover ~ .form-icon{
-    /* background-image: url(../img/modal-form/person-blue.svg); */
-    fill: var(--accent-cl);
-  }
+.label-check{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 1.714;
 
+    letter-spacing: 0.03em;
+
+    color:var(--gray);
+}
 
 .form-input:focus,
 .form-input:hover {
