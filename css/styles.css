@@ -991,8 +991,6 @@ img{
 }
 
 
-
-
 .form-icon{
     position: absolute;
     top: 50%;
@@ -1121,6 +1119,10 @@ margin: 0px;
     color:var(--gray);
 }
 
+.form-input:focus ~ .form-icon,
+.form-input:hover ~ .form-icon{
+fill: var(--accent-cl);
+}
 .form-input:focus,
 .form-input:hover {
 outline: none;
