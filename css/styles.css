@@ -1079,12 +1079,13 @@ top: 0;
     top: 20px;
     text-align: center;
     color: var(--gray);
+    
 }
 .checkbox-icon{
 
     display:inline-block;
     vertical-align:middle;
-    
+    margin-right: 5px;
     background-repeat: no-repeat;
     width: 16px;
     height: 15px;
